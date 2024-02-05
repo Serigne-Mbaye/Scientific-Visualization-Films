@@ -36,5 +36,6 @@ un'interfaccia interattiva accessibile attraverso un link nel browser. In questo
 possono esplorare i dati sui film dal 1977 al 2024 in tempo reale.
 
 Complessivamente, il nostro progetto di visualizzazione scientifica si distingue per la sua
-combinazione di potenza analitica, flessibilità e interattività, offrendo agli utenti uno strumento 
-completo per esplorare e comprendere i dati scientifici in modo più efficace e coinvolgente.
+combinazione di potenza analitica, flessibilità e interattività, offrendo agli utenti una 
+presentazione completa per esplorare e comprendere i dati scientifici in modo più efficace
+e coinvolgente.
