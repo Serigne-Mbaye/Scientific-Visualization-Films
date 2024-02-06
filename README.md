@@ -33,7 +33,7 @@ preparazione e la condivisione delle presentazioni.
 Tuttavia, un'eccezione è "guadagni_per_anno.ipynb" grafico particolarmente dinamico che utilizza la 
 libreria Dash di Plotly. Questo grafico è stato implementato tramite un server interno che offre
 un'interfaccia interattiva accessibile attraverso un link nel browser. In questo modo, gli utenti 
-possono esplorare i dati sui film dal 1977 al 2024 in tempo reale.
+possono esplorare i dati sui film dal 1977 fino al gennaio 2024 in tempo reale.
 
 Complessivamente, il nostro progetto di visualizzazione scientifica si distingue per la sua
 combinazione di potenza analitica, flessibilità e interattività, offrendo agli utenti una 
