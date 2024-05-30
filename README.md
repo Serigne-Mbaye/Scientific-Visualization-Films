@@ -7,6 +7,46 @@
 01553A Mbaye Serigne Darou
 <hr />
 
+## Acquisizione dati
+### kaggle
+IL primo dataset sui fil utilizzato lo abbiamo trovato su un sito nel quale è possibile recuperare
+diversi tipi di dataset: kaggle. 
+https://www.kaggle.com/datasets/kianindeed/imdb-movie-dataset-dec-2023?resource=download  
+Contiene 1950 tuple, il dataset è aggiornato al 15 dicembre 2023
+
+Il secondo dataset utilizzato lo abbiamo trovato sempre su kaggle, questo dataset contiene i guadagni
+di tutti i film usciti divisi per anno ordinati per rank in base al guadagno più alto al botteghino.
+I dati su questo dataset vanno dal 1977 al 2024, il dataset viene aggiornato mensilmente.
+https://www.kaggle.com/datasets/jonbown/worldwide-box-office-rankings-1977?resource=download&select=ranking_summary_2024.csv
+
+### Wikidata
+Il terzo dataset è quello contenente i dati di tutti gli attori di tutto il mondo. Visto che
+l'argomento era il cinema ci è venuta l'idea di create una Choropleth Map in cui mostrare i paesi
+nei quali sono nati più attori. Non abbiamo trovato in giro nessun dataset con questi dati ma
+grazie a Wikidata Query Service abbiamo raccolto, tramite una query SPARQL, il nome, data di
+nascita e stato di nascita di tutti gli attori presenti nel loro database.  
+```
+SELECT ?actorLabel ?birthDate ?birthCountryLabel
+  WHERE
+  {
+    ?actor wdt:P106 wd:Q33999;  # Filtrare per professione: attore/attrice
+         wdt:P569 ?birthDate;  # Data di nascita
+         wdt:P19 ?birthPlace.  # Luogo di nascita
+    ?birthPlace wdt:P17 ?birthCountry. # Stato di nascita
+  
+    FILTER(YEAR(?birthDate) >= 1920 && YEAR(?birthDate) < 1930)
+
+    SERVICE wikibase:label { bd:serviceParam wikibase:language"en".}
+  }
+```
+Abbiamo raccolto i dati con query che filtrano con un range di 10 anni perchè per ogni query perchè
+Wikidata non permette di fare query con output troppo lunghi. Successivamente abbiamo unito tutti i
+csv ottenuti in un unico csv per un totale di 155.489 tuple.
+
+### Google Trends
+Il quarto e ultimo dataset contiene i dati sulla popolarità tra Cinema e Serie TV.  
+Abbiamo usato Google Trends, i dati presi sono relativi al periodo 2004-2024.
+
 ## Descrizione progetto
 Il nostro progetto di visualizzazione scientifica, sviluppato utilizzando Jupyter in Python, 
 si propone di offrire un'esperienza di visualizzazione avanzata e dinamica dei dati. Abbiamo 
