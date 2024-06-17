@@ -15,8 +15,8 @@ https://www.kaggle.com/datasets/kianindeed/imdb-movie-dataset-dec-2023?resource=
 Contiene 1950 tuple, il dataset è aggiornato al 15 dicembre 2023
 
 Il secondo dataset utilizzato lo abbiamo trovato sempre su kaggle, questo dataset contiene i guadagni
-di tutti i film usciti divisi per anno ordinati per rank in base al guadagno più alto al botteghino.
-I dati su questo dataset vanno dal 1977 al 2024, il dataset viene aggiornato mensilmente.
+di tutti i film usciti divisi per anno ordinati per rank in base al guadagno più alto al botteghino.  
+I dati su questo dataset vanno dal 1977 al 2024, il dataset viene aggiornato mensilmente.  
 https://www.kaggle.com/datasets/jonbown/worldwide-box-office-rankings-1977?resource=download&select=ranking_summary_2024.csv
 
 ### Wikidata
@@ -44,8 +44,11 @@ Wikidata non permette di fare query con output troppo lunghi. Successivamente ab
 csv ottenuti in un unico csv per un totale di 155.489 tuple.
 
 ### Google Trends
-Il quarto e ultimo dataset contiene i dati sulla popolarità tra Cinema e Serie TV.  
-Abbiamo usato Google Trends, i dati presi sono relativi al periodo 2004-2024.
+Il quarto e ultimo dataset contiene i dati sulla popolarità tra Cinema e Serie TV. 
+Abbiamo usato Google Trends, i dati presi sono relativi al periodo 2004-2024.  
+Abbiamo parlato di cinema e ci è sembrata una buona idea fare un semplice confronto con le serie TV
+aggiungendo un altro tipo di grafico che riesca a mostrare bene i cambiamenti nel tempo della 
+popolarità di entrambi e abbiamo optato per una heatmap.
 
 ## Descrizione progetto
 Il nostro progetto di visualizzazione scientifica, sviluppato utilizzando Jupyter in Python, 
