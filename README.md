@@ -1,6 +1,6 @@
 # Visualizzazione scientifica
 ### *Approfondimento sul cinema*
-<hr />
+![auditorium-stadium-bench-chairs](https://github.com/Serigne-Mbaye/Scientific-Visualization-Films/assets/159076658/fb467a40-e191-4f85-b6ef-eee8ffd5d68b)
 
 ## Autori
 984605 Pomayay Gabonal Angello Fernando  
