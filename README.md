@@ -5,6 +5,9 @@
 ## Autori
 984605 Pomayay Gabonal Angello Fernando  
 01553A Mbaye Serigne Darou
+:exclamation::exclamation::exclamation: Avendo creato i grafici in modo che siano interattivi purtroppo non sono visualizzabili 
+insieme al codice all'interno della cartella "codici", li abbiamo mostrati attraverso dei video nella presentazione e sono 
+disponibili sotto forma di HTML all'interno della cartella "HTML files" :exclamation::exclamation::exclamation:
 <hr />
 
 ## Acquisizione dati
@@ -48,7 +51,8 @@ Il quarto e ultimo dataset contiene i dati sulla popolarità tra Cinema e Serie 
 Abbiamo usato Google Trends, i dati presi sono relativi al periodo 2004-2024.  
 Abbiamo parlato di cinema e ci è sembrata una buona idea fare un semplice confronto con le serie TV
 aggiungendo un altro tipo di grafico che riesca a mostrare bene i cambiamenti nel tempo della 
-popolarità di entrambi e abbiamo optato per una heatmap.
+popolarità di entrambi e abbiamo optato per una heatmap. Con questo grafico siamo riusciti a notare
+un fatto molto interessante descritto nella presentazione.
 
 ## Descrizione progetto
 Il nostro progetto di visualizzazione scientifica, sviluppato utilizzando Jupyter in Python, 
