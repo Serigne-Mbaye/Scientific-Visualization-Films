@@ -7,7 +7,7 @@
 01553A Mbaye Serigne Darou  
   
 ‼️ Avendo creato i grafici in modo che siano interattivi purtroppo non sono visualizzabili 
-insieme al codice all'interno della cartella "codici", li abbiamo mostrati attraverso dei video nella presentazione e sono 
+insieme al codice all'interno della cartella "Codici". Li abbiamo mostrati attraverso dei video nella presentazione e sono 
 disponibili sotto forma di HTML all'interno della cartella "HTML files" ‼️
 <hr />
 
